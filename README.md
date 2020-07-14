@@ -9,3 +9,9 @@
 - https://www.geeksforgeeks.org/python-gui-tkinter/
 - https://www.geeksforgeeks.org/generating-strong-password-using-python/
 - https://www.geeksforgeeks.org/file-handling-python/
+
+## References for Weather application:
+- https://www.youtube.com/watch?v=vJCjDevYDt8
+- http://tomasz-kluczkowski.com/project/the-weather-app/
+- https://www.geeksforgeeks.org/python-real-time-weather-detection-using-tkinter/
+- https://github.com/Tomasz-Kluczkowski/Weather-App
