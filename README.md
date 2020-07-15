@@ -15,3 +15,6 @@
 - http://tomasz-kluczkowski.com/project/the-weather-app/
 - https://www.geeksforgeeks.org/python-real-time-weather-detection-using-tkinter/
 - https://github.com/Tomasz-Kluczkowski/Weather-App
+
+## References for Air quality detector:
+- https://www.youtube.com/watch?v=vJCjDevYDt8
