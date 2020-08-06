@@ -87,6 +87,10 @@ Resources to learn Git:
 ## References for Air quality detector:
 - https://www.youtube.com/watch?v=vJCjDevYDt8
 
+## References for Rolling Dice:
+- https://www.geeksforgeeks.org/python-if-else/#if-elif
+- https://www.geeksforgeeks.org/python-while-loops/?ref=lbp
+- https://www.tutorialsteacher.com/python/random-module
 
 >## 💻&nbsp; System Requirements
 -  Git
