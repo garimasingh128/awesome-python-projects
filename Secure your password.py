@@ -24,7 +24,8 @@ sym = {
           'y' : ',',
           'z' : '|',
           }
-inp = 'alphabet'
+inp = input("enter your name:")
+print(inp)
 password = ''
 
 for i in inp:
