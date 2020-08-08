@@ -67,6 +67,11 @@ Read these articles to get a quick grab on Python:
 Resources to learn Git:
 -  https://try.github.io/
 
+## References for Secure your password:
+- https://www.geeksforgeeks.org/taking-input-in-python/
+- https://developers.google.com/edu/python/dict-files
+- https://www.edureka.co/blog/print-in-python/
+
 
 ## References for Tic Tac Toe:
 - https://medium.com/byte-tales/the-classic-tic-tac-toe-game-in-python-3-1427c68b8874
