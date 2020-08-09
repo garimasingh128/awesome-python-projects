@@ -67,6 +67,11 @@ Read these articles to get a quick grab on Python:
 Resources to learn Git:
 -  https://try.github.io/
 
+## References for Secure your password:
+- https://www.geeksforgeeks.org/taking-input-in-python/
+- https://developers.google.com/edu/python/dict-files
+- https://www.edureka.co/blog/print-in-python/
+
 
 ## References for Tic Tac Toe:
 - https://medium.com/byte-tales/the-classic-tic-tac-toe-game-in-python-3-1427c68b8874
@@ -87,12 +92,19 @@ Resources to learn Git:
 ## References for Air quality detector:
 - https://www.youtube.com/watch?v=vJCjDevYDt8
 
+<<<<<<< master
 ## References for Rock Paper Scissor:
 - https://www.geeksforgeeks.org/python-program-implement-rock-paper-scissor-game
 - https://www.afiniti.com/corporate/rock-paper-scissors
 - https://www.tes.com/teaching-resource/building-a-rock-paper-scissors-game-using-scratch-11268599
 - https://www.youtube.com/watch?v=KnVwmBh1bo0 
 
+=======
+## References for Rolling Dice:
+- https://www.geeksforgeeks.org/python-if-else/#if-elif
+- https://www.geeksforgeeks.org/python-while-loops/?ref=lbp
+- https://www.tutorialsteacher.com/python/random-module
+>>>>>>> master
 
 >## 💻&nbsp; System Requirements
 -  Git
