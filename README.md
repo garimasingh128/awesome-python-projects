@@ -87,6 +87,12 @@ Resources to learn Git:
 ## References for Air quality detector:
 - https://www.youtube.com/watch?v=vJCjDevYDt8
 
+## References for Rock Paper Scissor:
+- https://www.geeksforgeeks.org/python-program-implement-rock-paper-scissor-game
+- https://www.afiniti.com/corporate/rock-paper-scissors
+- https://www.tes.com/teaching-resource/building-a-rock-paper-scissors-game-using-scratch-11268599
+- https://www.youtube.com/watch?v=KnVwmBh1bo0
+
 
 >## 💻&nbsp; System Requirements
 -  Git
