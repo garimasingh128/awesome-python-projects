@@ -105,6 +105,12 @@ Resources to learn Git:
 - https://www.tutorialsteacher.com/python/random-module
 
 
+## References for Quiz Application
+-https://www.youtube.com/watch?v=VR-yNEpGk3g
+-https://www.geeksforgeeks.org/python-multiple-choice-questions/
+-https://www.youtube.com/watch?v=cwJBEZjQJtc
+
+
 >## 💻&nbsp; System Requirements
 -  Git
 -  Code Editor (Visual Studio Code, Sublime Text)
