@@ -105,6 +105,9 @@ Resources to learn Git:
 - https://www.tutorialsteacher.com/python/random-module
 
 
+## References for Number Plate Detection using Opencv
+- https://youtu.be/GXyLSx8l9gM
+- https://docs.opencv.org/2.4/doc/tutorials/tutorials.html
 >## 💻&nbsp; System Requirements
 -  Git
 -  Code Editor (Visual Studio Code, Sublime Text)
