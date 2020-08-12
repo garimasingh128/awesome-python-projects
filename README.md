@@ -110,7 +110,9 @@ Resources to learn Git:
 - https://www.geeksforgeeks.org/python-multiple-choice-questions/
 - https://www.youtube.com/watch?v=cwJBEZjQJtc
 
-
+## References for License Plate Detection :
+- http://youtube.com/watch?v=GXyLSx8l9gM
+- https://docs.opencv.org/master/d9/df8/tutorial_root.html
 >## 💻&nbsp; System Requirements
 -  Git
 -  Code Editor (Visual Studio Code, Sublime Text)
