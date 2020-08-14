@@ -113,6 +113,10 @@ Resources to learn Git:
 ## References for License Plate Detection :
 - http://youtube.com/watch?v=GXyLSx8l9gM
 - https://docs.opencv.org/master/d9/df8/tutorial_root.html
+
+## References for Alarm Clock :
+- https://www.tutorialspoint.com/python/python_gui_programming.htm
+- https://docs.python.org/3/library/datetime.html
 >## 💻&nbsp; System Requirements
 -  Git
 -  Code Editor (Visual Studio Code, Sublime Text)
