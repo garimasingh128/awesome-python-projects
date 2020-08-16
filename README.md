@@ -67,6 +67,12 @@ Read these articles to get a quick grab on Python:
 Resources to learn Git:
 -  https://try.github.io/
 
+## References for Typing Speed Test :
+- https://www.youtube.com/watch?v=0e6gmdYqXrc
+- https://www.geeksforgeeks.org/python-string-split/
+- https://www.geeksforgeeks.org/taking-input-in-python/
+
+
 ## References for Secure your password:
 - https://www.geeksforgeeks.org/taking-input-in-python/
 - https://developers.google.com/edu/python/dict-files
