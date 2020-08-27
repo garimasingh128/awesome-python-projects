@@ -67,6 +67,12 @@ Read these articles to get a quick grab on Python:
 Resources to learn Git:
 -  https://try.github.io/
 
+## References for Typing Speed Test :
+- https://www.youtube.com/watch?v=0e6gmdYqXrc
+- https://www.geeksforgeeks.org/python-string-split/
+- https://www.geeksforgeeks.org/taking-input-in-python/
+
+
 ## References for Secure your password:
 - https://www.geeksforgeeks.org/taking-input-in-python/
 - https://developers.google.com/edu/python/dict-files
@@ -92,30 +98,34 @@ Resources to learn Git:
 ## References for Air quality detector:
 - https://www.youtube.com/watch?v=vJCjDevYDt8
 
-<<<<<<< master
+
 ## References for Rock Paper Scissor:
 - https://www.geeksforgeeks.org/python-program-implement-rock-paper-scissor-game
 - https://www.afiniti.com/corporate/rock-paper-scissors
 - https://www.tes.com/teaching-resource/building-a-rock-paper-scissors-game-using-scratch-11268599
 - https://www.youtube.com/watch?v=KnVwmBh1bo0 
 
-=======
 ## References for Rolling Dice:
 - https://www.geeksforgeeks.org/python-if-else/#if-elif
 - https://www.geeksforgeeks.org/python-while-loops/?ref=lbp
 - https://www.tutorialsteacher.com/python/random-module
->>>>>>> master
 
-## References for Quiz Application
+## References for Quiz Application:
 - https://www.youtube.com/watch?v=VR-yNEpGk3g
 - https://www.geeksforgeeks.org/python-multiple-choice-questions/
 - https://www.youtube.com/watch?v=cwJBEZjQJtc
 
-## References for Simple Calculator
-* https://www.geeksforgeeks.org/make-simple-calculator-using-python/https://www.geeksforgeeks.org/make-simple-calculator-using-python/
-* https://www.youtube.com/watch?v=miC7ni64hbw
-* https://www.youtube.com/watch?v=B1U0gUhUeQs
+## References for License Plate Detection :
+- http://youtube.com/watch?v=GXyLSx8l9gM
+- https://docs.opencv.org/master/d9/df8/tutorial_root.html
 
+## References for Alarm Clock :
+- https://www.tutorialspoint.com/python/python_gui_programming.htm
+- https://docs.python.org/3/library/datetime.html
+
+## References for Simple Calculator
+- https://www.geeksforgeeks.org/make-simple-calculator-using-python/https://www.geeksforgeeks.org/make-simple-calculator-using-python/` https://www.youtube.com/watch?v=miC7ni64hbw
+- https://www.youtube.com/watch?v=B1U0gUhUeQs
 
 >## 💻&nbsp; System Requirements
 -  Git
