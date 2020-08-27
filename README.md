@@ -111,6 +111,11 @@ Resources to learn Git:
 -https://www.geeksforgeeks.org/python-multiple-choice-questions/
 -https://www.youtube.com/watch?v=cwJBEZjQJtc
 
+## References for Simple Calculator
+-https://www.geeksforgeeks.org/make-simple-calculator-using-python/https://www.geeksforgeeks.org/make-simple-calculator-using-python/
+-https://www.youtube.com/watch?v=miC7ni64hbw
+-https://www.youtube.com/watch?v=B1U0gUhUeQs
+
 
 >## 💻&nbsp; System Requirements
 -  Git
