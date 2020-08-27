@@ -110,7 +110,6 @@ Resources to learn Git:
 - https://www.geeksforgeeks.org/python-while-loops/?ref=lbp
 - https://www.tutorialsteacher.com/python/random-module
 
-
 ## References for Quiz Application:
 - https://www.youtube.com/watch?v=VR-yNEpGk3g
 - https://www.geeksforgeeks.org/python-multiple-choice-questions/
@@ -123,6 +122,11 @@ Resources to learn Git:
 ## References for Alarm Clock :
 - https://www.tutorialspoint.com/python/python_gui_programming.htm
 - https://docs.python.org/3/library/datetime.html
+
+## References for Simple Calculator
+- https://www.geeksforgeeks.org/make-simple-calculator-using-python/https://www.geeksforgeeks.org/make-simple-calculator-using-python/` https://www.youtube.com/watch?v=miC7ni64hbw
+- https://www.youtube.com/watch?v=B1U0gUhUeQs
+
 >## 💻&nbsp; System Requirements
 -  Git
 -  Code Editor (Visual Studio Code, Sublime Text)
