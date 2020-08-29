@@ -67,6 +67,11 @@ Read these articles to get a quick grab on Python:
 Resources to learn Git:
 -  https://try.github.io/
 
+## References for Contact Book Application :
+- https://www.youtube.com/watch?v=0rzNAGe-gUs
+- https://www.geeksforgeeks.org/python-tkinter-tutorial/
+- https://www.geeksforgeeks.org/sql-using-python-sqlite-set-2/
+
 ## References for Typing Speed Test :
 - https://www.youtube.com/watch?v=0e6gmdYqXrc
 - https://www.geeksforgeeks.org/python-string-split/
