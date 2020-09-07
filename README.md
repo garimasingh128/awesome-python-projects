@@ -67,6 +67,11 @@ Read these articles to get a quick grab on Python:
 Resources to learn Git:
 -  https://try.github.io/
 
+## References for Notification app :
+-  https://www.youtube.com/watch?v=vPsM7qdnhzc
+-  https://www.geeksforgeeks.org/desktop-notifier-python/
+-  https://www.geeksforgeeks.org/python-desktop-notifier-using-plyer-module/
+
 ## References for Contact Book Application :
 - https://www.youtube.com/watch?v=0rzNAGe-gUs
 - https://www.geeksforgeeks.org/python-tkinter-tutorial/
