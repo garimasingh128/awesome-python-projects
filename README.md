@@ -67,6 +67,12 @@ Read these articles to get a quick grab on Python:
 Resources to learn Git:
 -  https://try.github.io/
 
+
+## References for pin your note :
+- https://www.youtube.com/watch?v=ilI3H2O5KYg
+- https://www.tutorialspoint.com/python/time_sleep.htm
+- https://www.geeksforgeeks.org/python-gui-tkinter/
+
 ## References for Notification app :
 -  https://www.youtube.com/watch?v=vPsM7qdnhzc
 -  https://www.geeksforgeeks.org/desktop-notifier-python/
