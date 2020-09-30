@@ -67,6 +67,10 @@ Read these articles to get a quick grab on Python:
 Resources to learn Git:
 -  https://try.github.io/
 
+##  References for Sentiment analyser ML project : 
+-  https://www.youtube.com/watch?v=dyN_WtjdfpA
+-  https://www.geeksforgeeks.org/nlp-how-tokenizing-text-sentence-words-works/
+-  https://www.geeksforgeeks.org/pyplot-in-matplotlib/
 
 ## References for pin your note :
 - https://www.youtube.com/watch?v=ilI3H2O5KYg
