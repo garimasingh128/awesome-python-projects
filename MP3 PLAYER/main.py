@@ -36,7 +36,7 @@ class MusicPlayer:
             mixer.music.load(MusicPlayer.filename)
             mixer.music.play()
             mp3 = stagger.read_tag(MusicPlayer.filename)
-            
+
             self.label['text'] = os.path.basename(MusicPlayer.filename)
 
     def pause(self):
