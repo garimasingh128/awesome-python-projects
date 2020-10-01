@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: stagger
+Version: 1.0.0
+Summary: ID3v1/ID3v2 tag manipulation package in pure Python 3
+Home-page: http://github.com/lorentey/stagger
+Author: Karoly Lorentey
+Author-email: karoly@lorentey.hu
+License: BSD
+Description: 
+        The ID3v2 tag format is notorious for its useless specification
+        documents and its quirky, mutually incompatible
+        part-implementations. Stagger is to provide a robust tagging package
+        that is able to handle all the various badly formatted tags out there
+        and allow you to convert them to a consensus format.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Multimedia :: Sound/Audio

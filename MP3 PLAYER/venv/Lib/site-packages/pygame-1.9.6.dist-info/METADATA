@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pygame
+Version: 1.9.6
+Summary: Python Game Development
+Home-page: https://www.pygame.org
+Author: A community project.
+Author-email: pygame@pygame.org
+License: LGPL
+Platform: UNKNOWN
+
+Pygame is a Python wrapper module for the
+SDL multimedia library. It contains python functions and classes
+that will allow you to use SDL's support for playing cdroms,
+audio and video output, and keyboard, mouse and joystick input.
+
