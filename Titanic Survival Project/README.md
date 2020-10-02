@@ -26,7 +26,7 @@ The sinking of the RMS Titanic is one of the most infamous shipwrecks in history
 6. Visualize, report, and present the problem solving steps and final solution.
 7. Supply or submit the results.
 
-#On this project are testing a multiple regrassion model there example are below
+# On this project are testing a multiple regrassion model there example are below
 1. Logistic Regression
 2. KNN or k-Nearest Neighbors
 3. Support Vector Machines
