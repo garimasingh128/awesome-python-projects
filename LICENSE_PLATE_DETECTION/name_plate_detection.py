@@ -45,9 +45,12 @@ new_image1 = cv2.drawContours(mask,[Number_Plate_Contour ],0,255,-1,)
 new_image1 = cv2.bitwise_and(image,image,mask=mask)
 cv2.imshow("Number Plate",new_image1)
 cv2.waitKey(0)
-
+gray_scaled1 = cv2.cvtColor(new_image1, cv2.COLOR_BGR2GRAY)
+ret,processed_img = cv2.threshold(np.array(gray_scaled1), 125, 255, cv2.THRESH_BINARY)
+cv2.imshow("Number Plate",processed_img)
+cv2.waitKey(0)
 # Use tesseract to covert image into string
-text = pytesseract.image_to_string(new_image1)
+text = pytesseract.image_to_string(processed_img)
 print("Number is :", text)
 
 cv2.waitKey(0) #Wait for user input before closing the images displayed
