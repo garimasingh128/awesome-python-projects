@@ -147,7 +147,7 @@ Resources to learn Git:
 - https://www.geeksforgeeks.org/make-simple-calculator-using-python/https://www.geeksforgeeks.org/make-simple-calculator-using-python/` https://www.youtube.com/watch?v=miC7ni64hbw
 - https://www.youtube.com/watch?v=B1U0gUhUeQs
 
-## References for Simple Calculator
+## References for File Renaming Tool
 - https://www.geeksforgeeks.org/rename-multiple-files-using-python/
 - https://docs.python.org/3/
 
