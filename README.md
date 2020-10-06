@@ -51,7 +51,7 @@ ONLY PYTHON 👨‍💻
 
 => Open your Git Bash command window and in the root directory type the following commands :
 ```bash
-    1) git init -initializes the git repository from the GitHub. 
+    1) git init -initializes the git repository from the GitHub.
     2) git clone -Clone the repository to your local machine
       (git clone https://github.com/<your-github-username>/garimasingh128/awesome-python-projects)
 ```    
@@ -67,7 +67,7 @@ Read these articles to get a quick grab on Python:
 Resources to learn Git:
 -  https://try.github.io/
 
-##  References for Sentiment analyser ML project : 
+##  References for Sentiment analyser ML project :
 -  https://www.youtube.com/watch?v=dyN_WtjdfpA
 -  https://www.geeksforgeeks.org/nlp-how-tokenizing-text-sentence-words-works/
 -  https://www.geeksforgeeks.org/pyplot-in-matplotlib/
@@ -123,7 +123,7 @@ Resources to learn Git:
 - https://www.geeksforgeeks.org/python-program-implement-rock-paper-scissor-game
 - https://www.afiniti.com/corporate/rock-paper-scissors
 - https://www.tes.com/teaching-resource/building-a-rock-paper-scissors-game-using-scratch-11268599
-- https://www.youtube.com/watch?v=KnVwmBh1bo0 
+- https://www.youtube.com/watch?v=KnVwmBh1bo0
 
 ## References for Rolling Dice:
 - https://www.geeksforgeeks.org/python-if-else/#if-elif
@@ -146,6 +146,10 @@ Resources to learn Git:
 ## References for Simple Calculator
 - https://www.geeksforgeeks.org/make-simple-calculator-using-python/https://www.geeksforgeeks.org/make-simple-calculator-using-python/` https://www.youtube.com/watch?v=miC7ni64hbw
 - https://www.youtube.com/watch?v=B1U0gUhUeQs
+
+## References for Simple Calculator
+- https://www.geeksforgeeks.org/rename-multiple-files-using-python/
+- https://docs.python.org/3/
 
 >## 💻&nbsp; System Requirements
 -  Git
