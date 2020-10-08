@@ -147,6 +147,19 @@ Resources to learn Git:
 - https://www.geeksforgeeks.org/make-simple-calculator-using-python/https://www.geeksforgeeks.org/make-simple-calculator-using-python/` https://www.youtube.com/watch?v=miC7ni64hbw
 - https://www.youtube.com/watch?v=B1U0gUhUeQs
 
+
+## References for IRIS FLOWER CLASSIFICATION USING ML:
+- https://medium.com/gft-engineering/start-to-learn-machine-learning-with-the-iris-flower-classification-challenge-4859a920e5e3
+- https://www.neuraldesigner.com/learning/examples/iris-flowers-classification
+- https://www.skyfilabs.com/project-ideas/iris-flower-classification-using-machine-learning
+- https://analyticsindiamag.com/start-building-first-machine-learning-project-famous-dataset/
+- https://www.youtube.com/watch?v=FLuqwQgSBDw&ab_channel=AppliedAICourse
+- https://www.youtube.com/watch?v=CLvboTdwpjc&ab_channel=RealKnow
+- https://youtu.be/Y17Y_8RK6pc?list=PL5tcWHG-UPH1OeZ2vU5xQd7RVpkWvwJny
+- https://youtu.be/ACdBKML9l4s
+
+
+
 >## 💻&nbsp; System Requirements
 -  Git
 -  Code Editor (Visual Studio Code, Sublime Text)
