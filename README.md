@@ -118,6 +118,10 @@ Resources to learn Git:
 ## References for Air quality detector:
 - https://www.youtube.com/watch?v=vJCjDevYDt8
 
+## References for Iris Flower Detector:
+- https://en.wikipedia.org/wiki/Iris_flower_data_set
+- https://en.wikipedia.org/wiki/Support_vector_machine
+- https://www.youtube.com/watch?v=Y17Y_8RK6pc
 
 ## References for Rock Paper Scissor:
 - https://www.geeksforgeeks.org/python-program-implement-rock-paper-scissor-game
