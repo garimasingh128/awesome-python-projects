@@ -123,6 +123,12 @@ Resources to learn Git:
 - https://en.wikipedia.org/wiki/Support_vector_machine
 - https://www.youtube.com/watch?v=Y17Y_8RK6pc
 
+## References for Flight Fare Prediction:
+- https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh
+- https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.
+ LinearRegression.html
+-  https://medium.com/code-to-express/flight-price-prediction-7c83616a13bb
+
 ## References for Rock Paper Scissor:
 - https://www.geeksforgeeks.org/python-program-implement-rock-paper-scissor-game
 - https://www.afiniti.com/corporate/rock-paper-scissors
