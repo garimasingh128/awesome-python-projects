@@ -157,6 +157,9 @@ Resources to learn Git:
 - https://www.geeksforgeeks.org/make-simple-calculator-using-python/https://www.geeksforgeeks.org/make-simple-calculator-using-python/` https://www.youtube.com/watch?v=miC7ni64hbw
 - https://www.youtube.com/watch?v=B1U0gUhUeQs
 
+## References for Admission Prediction using ML
+- https://www.udemy.com/share/103wKGAEETdltURH8B/
+
 >## 💻&nbsp; System Requirements
 -  Git
 -  Code Editor (Visual Studio Code, Sublime Text)
