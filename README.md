@@ -118,6 +118,16 @@ Resources to learn Git:
 ## References for Air quality detector:
 - https://www.youtube.com/watch?v=vJCjDevYDt8
 
+## References for Iris Flower Detector:
+- https://en.wikipedia.org/wiki/Iris_flower_data_set
+- https://en.wikipedia.org/wiki/Support_vector_machine
+- https://www.youtube.com/watch?v=Y17Y_8RK6pc
+
+## References for Flight Fare Prediction:
+- https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh
+- https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.
+ LinearRegression.html
+-  https://medium.com/code-to-express/flight-price-prediction-7c83616a13bb
 
 ## References for Rock Paper Scissor:
 - https://www.geeksforgeeks.org/python-program-implement-rock-paper-scissor-game
@@ -150,6 +160,30 @@ Resources to learn Git:
 ## References for File Renaming Tool
 - https://www.geeksforgeeks.org/rename-multiple-files-using-python/
 - https://docs.python.org/3/
+
+
+## References for IRIS FLOWER CLASSIFICATION USING ML:
+- https://medium.com/gft-engineering/start-to-learn-machine-learning-with-the-iris-flower-classification-challenge-4859a920e5e3
+- https://www.neuraldesigner.com/learning/examples/iris-flowers-classification
+- https://www.skyfilabs.com/project-ideas/iris-flower-classification-using-machine-learning
+- https://analyticsindiamag.com/start-building-first-machine-learning-project-famous-dataset/
+- https://www.youtube.com/watch?v=FLuqwQgSBDw&ab_channel=AppliedAICourse
+- https://www.youtube.com/watch?v=CLvboTdwpjc&ab_channel=RealKnow
+- https://youtu.be/Y17Y_8RK6pc?list=PL5tcWHG-UPH1OeZ2vU5xQd7RVpkWvwJny
+- https://youtu.be/ACdBKML9l4s
+
+
+## Reference for Using Google API
+- https://github.com/googleapis/google-api-python-client
+- https://www.youtube.com/watch?v=IVjZMIWhz3Y
+
+## References for Admission Prediction using ML
+- https://www.udemy.com/share/103wKGAEETdltURH8B/
+
+## References for IPL score predictor
+- https://youtu.be/4CtyDxfhoN8
+
+
 
 >## 💻&nbsp; System Requirements
 -  Git
