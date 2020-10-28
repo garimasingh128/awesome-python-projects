@@ -157,6 +157,9 @@ Resources to learn Git:
 - https://www.geeksforgeeks.org/make-simple-calculator-using-python/https://www.geeksforgeeks.org/make-simple-calculator-using-python/` https://www.youtube.com/watch?v=miC7ni64hbw
 - https://www.youtube.com/watch?v=B1U0gUhUeQs
 
+## References for IPL score predictor
+- https://youtu.be/4CtyDxfhoN8
+
 >## 💻&nbsp; System Requirements
 -  Git
 -  Code Editor (Visual Studio Code, Sublime Text)
