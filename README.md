@@ -157,6 +157,10 @@ Resources to learn Git:
 - https://www.geeksforgeeks.org/make-simple-calculator-using-python/https://www.geeksforgeeks.org/make-simple-calculator-using-python/` https://www.youtube.com/watch?v=miC7ni64hbw
 - https://www.youtube.com/watch?v=B1U0gUhUeQs
 
+## Reference for Using Google API
+- https://github.com/googleapis/google-api-python-client
+- https://www.youtube.com/watch?v=IVjZMIWhz3Y
+
 ## References for Admission Prediction using ML
 - https://www.udemy.com/share/103wKGAEETdltURH8B/
 
