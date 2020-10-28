@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        IPL score predictor
+    </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">"
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            align-items: center;
+            perspective: center;
+            transform-style: preserve-3d;
+            position: relative;
+            background-color: #111;
+            font-family: arial;
+        }
+
+        .container {
+            min-width: 700px;
+            min-height: 350px;
+            border-radius: 20px;
+            position: relative;
+            transition: 1.5s ease-in-out;
+            transform-style: preserve-3d;
+
+        }
+
+        .side {
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            height: 100%;
+            padding: 20px 50px;
+            color: white;
+            transform-style: preserve-3d;
+            backface-visibility: hidden;
+            border-radius: 20px;
+        }
+
+        .content {
+            transition: translateZ(70px) scale(0.8);
+            line-height: 1.5em;
+        }
+
+        .content h1 {
+            font-family: Verdana;
+            text-shadow: 15px 15px 10px black;
+        }
+
+        .front {
+            z-index: 2;
+            background-image: url(static/1.jpg);
+            background-size: cover;
+            background-size: 100vh;
+            color: white;
+
+
+
+        }
+
+        .back {
+            background-color: #333;
+            transform: rotateY(180deg);
+            z-index: 0;
+            padding-top: 10px;
+            background-image: url(static/2.jpg);
+
+        }
+
+        .container:hover {
+            transform: rotateY(180deg);
+        }
+
+        .back h1 {
+            margin: 0;
+        }
+
+        .form-input {
+            background: transparent;
+            border: 0;
+            border-bottom: 2px solid white;
+            border-radius: 10px;
+            box-shadow: 3px 3px 2px black;
+            padding: 10px;
+            width: 75%;
+            color: white;
+            outline: none;
+        }
+
+        select option {
+            color: black;
+        }
+
+        ::placeholder {
+            color: white;
+        }
+
+        .myButton {
+            padding: 5px 10px;
+            margin: 10px;
+            width: 150px;
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+            border-radius: 10px;
+            transition: 0.5s;
+            overflow: hidden;
+        }
+
+        .myButton:hover {
+            box-shadow: 3px 3px 2px white;
+            background: linear-gradient(90deg, transparent, rgb(221, 85, 85), transparent);
+            ;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+
+            background-color: #111;
+            color: white;
+            padding: 10px;
+
+            text-align: center;
+        }
+
+        .footer-description {
+            margin: 0;
+            font-size: 15px;
+
+        }
+
+
+        ul {
+            display: flex;
+            position: absolute;
+            top: 0%;
+            left: 90%;
+            transform: translate(-50%, -50%);
+        }
+
+        ul li {
+            list-style: none;
+
+        }
+
+        ul li a {
+            width: 80px;
+            height: 80px;
+            background: #fff;
+            text-align: center;
+            line-height: 80px;
+            font-size: 35px;
+            margin: 0 10px;
+            display: block;
+            border-radius: 50%;
+            position: relative;
+            overflow: hidden;
+            border: 3px solid #fff;
+            z-index: 1;
+        }
+
+        ul li a .fa {
+            position: relative;
+            color: #262626;
+            transition: .5s;
+
+        }
+
+        ul li a:hover .fa {
+            color: #fff;
+            transform: rotateY(360deg);
+        }
+
+        ul li a:before {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #f00;
+            transition: .5s;
+            z-index: 2;
+        }
+
+        ul li a:hover:before {
+            top: 0;
+        }
+
+        ul li:nth-child(1) a:before {
+            background: #0077B5;
+        }
+
+        ul li:nth-child(2) a:before {
+            background: #00c300;
+        }
+
+        ul li:nth-child(3) a:before {
+            background: #55acee;
+        }
+
+        h3 {
+            color: white;
+        }
+
+        .ipl-banner-left {
+            display: inline-block;
+            position: fixed;
+            left: 100px;
+            top: 160px;
+            width: 284px;
+            height: 429px;
+            border-radius: 15px;
+            -webkit-box-shadow: 7px 6px 18px -2px rgba(94, 94, 94, 0.61);
+            -moz-box-shadow: 7px 6px 18px -2px rgba(94, 94, 94, 0.61);
+            box-shadow: 7px 6px 18px -2px rgba(94, 94, 94, 0.61);
+        }
+
+        .ipl-banner-right {
+            display: inline-block;
+            width: 284px;
+            height: 429px;
+            position: fixed;
+            right: 100px;
+            top: 160px;
+            border-radius: 15px;
+            -webkit-box-shadow: 7px 6px 18px -2px rgba(94, 94, 94, 0.61);
+            -moz-box-shadow: 7px 6px 18px -2px rgba(94, 94, 94, 0.61);
+            box-shadow: 7px 6px 18px -2px rgba(94, 94, 94, 0.61);
+        }
+
+        .image-width {
+            height: 429px;
+        }
+
+        .slider-frame {
+            width: 100%;
+            height: 100%;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        @keyframes slide-animation-up {
+            0% {
+                top: 0;
+            }
+
+            6% {
+                top: -433px;
+            }
+
+            12% {
+                top: -866px;
+            }
+
+            18% {
+                top: -1299px;
+            }
+
+            24% {
+                top: -1732px;
+            }
+
+            30% {
+                top: -2165px;
+            }
+
+            36% {
+                top: -2598px;
+            }
+
+            42% {
+                top: -3031px;
+            }
+
+            50% {
+                top: -3031px;
+            }
+
+            56% {
+                top: -3031px;
+            }
+
+            62% {
+                top: -2598px;
+            }
+
+            68% {
+                top: -2165px;
+            }
+
+            74% {
+                top: -1732px;
+            }
+
+            80% {
+                top: -1299px;
+            }
+
+            86% {
+                top: -866px;
+            }
+
+            92% {
+                top: -433px;
+            }
+
+            100% {
+                top: 0;
+            }
+        }
+
+        @keyframes slide-animation-down {
+            0% {
+                bottom: 3031px;
+            }
+
+            6% {
+                bottom: 2598px;
+            }
+
+            12% {
+                bottom: 2165px;
+            }
+
+            18% {
+                bottom: 1732px;
+            }
+
+            24% {
+                bottom: 1299px;
+            }
+
+            30% {
+                bottom: 866px;
+            }
+
+            36% {
+                bottom: 433px;
+            }
+
+            42% {
+                bottom: 0;
+            }
+
+            50% {
+                bottom: 0;
+            }
+
+            56% {
+                bottom: 0;
+            }
+
+            62% {
+                bottom: 433px;
+            }
+
+            68% {
+                bottom: 866px;
+            }
+
+            74% {
+                bottom: 1299px;
+            }
+
+            80% {
+                bottom: 1732px;
+            }
+
+            86% {
+                bottom: 2165px;
+            }
+
+            92% {
+                bottom: 2598px;
+            }
+
+            100% {
+                bottom: 3031px;
+            }
+        }
+
+        .slide-images-up {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            animation-name: slide-animation-up;
+            animation-duration: 50s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: ease-out;
+        }
+
+        .slide-images-down {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            animation-name: slide-animation-down;
+            animation-duration: 50s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: ease-out;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class='ipl-banner-left'>
+
+        <div class="slider-frame">
+            <div class="slide-images-up">
+
+                <!-- Image-1 -->
+                <div class="image-container">
+                    <img class="image-width" src="{{ url_for('static', filename='mi.jpg') }}" alt="Mumbai Indians">
+                </div>
+                <!-- Image-2 -->
+                <div class="image-container">
+                    <img class="image-width" src="{{ url_for('static', filename='srh.jpg') }}"
+                        alt="Sunrisers Hyderabad">
+                </div>
+                <!-- Image-3 -->
+                <div class="image-container">
+                    <img class="image-width" src="{{ url_for('static', filename='rcb.jpg') }}"
+                        alt="Royal Challengers Bangalore">
+                </div>
+                <!-- Image-4 -->
+                <div class="image-container">
+                    <img class="image-width" src="{{ url_for('static', filename='dc.jpg') }}" alt="Delhi Capitals">
+                </div>
+                <!-- Image-5 -->
+                <div class="image-container">
+                    <img class="image-width" src="{{ url_for('static', filename='rr.jpg') }}" alt="Rajasthan Royals">
+                </div>
+                <!-- Image-6 -->
+                <div class="image-container">
+                    <img class="image-width" src="{{ url_for('static', filename='kkr.jpg') }}"
+                        alt="Kolkata Knight Riders">
+                </div>
+                <!-- Image-7 -->
+                <div class="image-container">
+                    <img class="image-width" src="{{ url_for('static', filename='kxip.jpg') }}" alt="Kings XI Punjab">
+                </div>
+                <!-- Image-8 -->
+                <div class="image-container">
+                    <img class="image-width" src="{{ url_for('static', filename='csk.jpg') }}"
+                        alt="Chennai Super Kings">
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+
+        <div class="front side">
+            <div class="content">
+                <h1>IPL score predictor</h1>
+            </div>
+        </div>
+        <div class="back side">
+            <div class="content">
+                <h1>Predict Score</h1>
+                <form action="{{ url_for('predict') }}" method="POST">
+                    <!-- Batting Team Dropdown -->
+                    <select class="form-input" name="batting-team" required>
+                        <option value="none">--- Select a Batting team ---</option>
+                        <option value="Mumbai Indians">Mumbai Indians</option>
+                        <option value="Kolkata Knight Riders">Kolkata Knight Riders</option>
+                        <option value="Chennai Super Kings">Chennai Super Kings</option>
+                        <option value="Rajasthan Royals">Rajasthan Royals</option>
+                        <option value="Kings XI Punjab">Kings XI Punjab</option>
+                        <option value="Royal Challengers Bangalore">Royal Challengers Bangalore</option>
+                        <option value="Delhi Daredevils">Delhi Daredevils</option>
+                        <option value="Sunrisers Hyderabad">Sunrisers Hyderabad</option>
+                    </select><br>
+                    <!-- Bowling Team Dropdown -->
+                    <select class="form-input" name="bowling-team">
+                        <option value="none">--- Select a Bowling team ---</option>
+                        <option value="Mumbai Indians">Mumbai Indians</option>
+                        <option value="Kolkata Knight Riders">Kolkata Knight Riders</option>
+                        <option value="Chennai Super Kings">Chennai Super Kings</option>
+                        <option value="Rajasthan Royals">Rajasthan Royals</option>
+                        <option value="Kings XI Punjab">Kings XI Punjab</option>
+                        <option value="Royal Challengers Bangalore">Royal Challengers Bangalore</option>
+                        <option value="Delhi Daredevils">Delhi Daredevils</option>
+                        <option value="Sunrisers Hyderabad">Sunrisers Hyderabad</option>
+                    </select><br>
+                    <input class="form-input" type="text" name="overs" placeholder="Overs (>= 5.0) eg. 7.2"><br>
+                    <input class="form-input" type="text" name="runs" placeholder="Runs eg. 64"><br>
+                    <input class="form-input" type="text" name="wickets" placeholder="Wickets eg. 4"><br>
+                    <input class="form-input" type="text" name="runs_in_prev_5"
+                        placeholder="Runs scored in previous 5 Overs eg. 42"><br>
+                    <input class="form-input" type="text" name="wickets_in_prev_5"
+                        placeholder="Wickets taken in previous 5 Overs eg. 3"><br>
+
+                    <input type="submit" class="myButton" value="Predict Score">
+                </form>
+
+            </div>
+            <br><br>
+            <h3>{{ prediction_text }}<h3></h3>
+        </div>
+
+    </div>
+
+    <div class='ipl-banner-right'>
+
+        <div class="slider-frame">
+            <div class="slide-images-down">
+
+                <!-- Image-1 -->
+                <div class="image-container">
+                    <img class="image-width" src="{{ url_for('static', filename='mi.jpg') }}" alt="Mumbai Indians">
+                </div>
+                <!-- Image-2 -->
+                <div class="image-container">
+                    <img class="image-width" src="{{ url_for('static', filename='srh.jpg') }}"
+                        alt="Sunrisers Hyderabad">
+                </div>
+                <!-- Image-3 -->
+                <div class="image-container">
+                    <img class="image-width" src="{{ url_for('static', filename='rcb.jpg') }}"
+                        alt="Royal Challengers Bangalore">
+                </div>
+                <!-- Image-4 -->
+                <div class="image-container">
+                    <img class="image-width" src="{{ url_for('static', filename='dc.jpg') }}" alt="Delhi Capitals">
+                </div>
+                <!-- Image-5 -->
+                <div class="image-container">
+                    <img class="image-width" src="{{ url_for('static', filename='kkr.jpg') }}"
+                        alt="Kolkata Knight Riders">
+                </div>
+                <!-- Image-6 -->
+                <div class="image-container">
+                    <img class="image-width" src="{{ url_for('static', filename='rr.jpg') }}" alt="Rajasthan Royals">
+                </div>
+                <!-- Image-7 -->
+                <div class="image-container">
+                    <img class="image-width" src="{{ url_for('static', filename='kxip.jpg') }}" alt="Kings XI Punjab">
+                </div>
+                <!-- Image-8 -->
+                <div class="image-container">
+                    <img class="image-width" src="{{ url_for('static', filename='csk.jpg') }}"
+                        alt="Chennai Super Kings">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class='footer'>
+        <ul>
+            <li><a target="_blank" href="https://www.linkedin.com/in/shobhit-aryan-288565183/"><i class="fa fa-linkedin"
+                        aria-hidden="true"></i></a></li>
+            <li><a target="_blank" href="https://github.com/Shobhit-aryan"><i class="fa fa-github"
+                        aria-hidden="true"></i></a></li>
+            <li><a target="_blank" href="https://twitter.com/aryan_shobhit"><i class="fa fa-twitter"
+                        aria-hidden="true"></i></a></li>
+
+        </ul>
+
+        <p class='footer-description'>Made with ❤️ by Shobhit.<br>A Machine Learning Web App, Built with Flask, Deployed
+            using Heroku.</p>
+    </div>
+
+</body>
+
+</html>

@@ -160,6 +160,9 @@ Resources to learn Git:
 ## References for Admission Prediction using ML
 - https://www.udemy.com/share/103wKGAEETdltURH8B/
 
+## References for IPL score predictor
+- https://youtu.be/4CtyDxfhoN8
+
 >## 💻&nbsp; System Requirements
 -  Git
 -  Code Editor (Visual Studio Code, Sublime Text)
