@@ -182,7 +182,9 @@ Resources to learn Git:
 
 ## References for IPL score predictor
 - https://youtu.be/4CtyDxfhoN8
-
+## References for alarm clock
+- https://youtube.com/playlist?list=PLu0W_9lII9ajLcqRcj4PoEihkukF_OTzA
+- https://itsourcecode.com/free-projects/python-projects/alarm-clock-using-python-with-source-code/
 
 
 >## 💻&nbsp; System Requirements
