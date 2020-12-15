@@ -13,6 +13,7 @@
     ![daily_tweet](daily_tweets.png)
   
   - you can change your permissions by modifying config.py file.
+  - Change the SLEEP_TIME in config.py file to your need.
   
  ## To run
   - Run the twitterapp.py file after updating the config.py and credientials.py file.
