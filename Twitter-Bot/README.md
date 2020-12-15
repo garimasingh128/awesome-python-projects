@@ -13,3 +13,10 @@
     ![daily_tweet](daily_tweets.png)
   
   - you can change your permissions by modifying config.py file.
+  
+ ## To run
+  - Run the twitterapp.py file after updating the config.py and credientials.py file.
+  
+ ## Result
+ 
+  ![result](result.png)
