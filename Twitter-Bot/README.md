@@ -9,5 +9,7 @@
  ## Uses
   - You can search for a hashtag and like,retweet,follow the users who tweeted.
   - You can tweet on regularly basic by updating the format on the twitterapp.py file.
+    
     ![daily_tweet](daily_tweets.png)
   
+  - you can change your permissions by modifying config.py file.
