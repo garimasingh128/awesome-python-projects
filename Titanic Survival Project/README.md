@@ -64,11 +64,10 @@ readme.md - for guide to this project.
 
 [7] https://youtu.be/bk31iwa_S9w
 
-
-# Resources
-[1] Titanic Infography : 
+[8] Titanic Infography : 
 https://images.squarespace-cdn.com/content/5006453fe4b09ef2252ba068/1351660113175-514SN9PXFWB9N2MNB8DV/TItanic-Survival-Infographic.jpg?format=1500w&content-type=image%2Fjpeg 
 
-[2] Blogs : https://towardsdatascience.com/predicting-the-survival-of-titanic-passengers-30870ccc7e8 <br>
+[9] Blogs : https://towardsdatascience.com/predicting-the-survival-of-titanic-passengers-30870ccc7e8 <br>
 
  https://blog.a4everyone.com/2017/03/13/data-analytics-knows-if-you-are-going-to-survive-the-sinking-of-titanic/
+
