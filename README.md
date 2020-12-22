@@ -182,7 +182,8 @@ Resources to learn Git:
 
 ## References for IPL score predictor
 - https://youtu.be/4CtyDxfhoN8
-
+## Reference for Credit Card Fraud Detection 
+- https://www.geeksforgeeks.org/ml-credit-card-fraud-detection/
 
 
 >## 💻&nbsp; System Requirements
