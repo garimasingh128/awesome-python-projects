@@ -183,6 +183,10 @@ Resources to learn Git:
 ## References for IPL score predictor
 - https://youtu.be/4CtyDxfhoN8
 
+## Refrences for Twitter Sentiment Analysis using ML
+- https://towardsdatascience.com/social-media-sentiment-analysis-49b395771197
+- https://towardsdatascience.com/social-media-sentiment-analysis-part-ii-bcacca5aaa39
+
 
 
 >## 💻&nbsp; System Requirements
