@@ -11,7 +11,7 @@ while player==False:
     if (c==0):
       print("thanks for playing")
       break
-    else:        
+    elif (c==1):        
         print("SELECT YOUR CHOICE rock paper scissor")
         x=str(input())        
         if y==0:
@@ -42,3 +42,6 @@ while player==False:
           print("That's not a valid play. Check your spelling!")
           player = False
           y =randint(0,2)
+         
+    else:
+        print("Error")

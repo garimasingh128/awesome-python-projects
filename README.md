@@ -188,6 +188,14 @@ Resources to learn Git:
 - https://towardsdatascience.com/social-media-sentiment-analysis-part-ii-bcacca5aaa39
 
 
+## Reference for Credit Card Fraud Detection 
+- https://www.geeksforgeeks.org/ml-credit-card-fraud-detection/
+
+## References for alarm clock
+- https://youtube.com/playlist?list=PLu0W_9lII9ajLcqRcj4PoEihkukF_OTzA
+- https://itsourcecode.com/free-projects/python-projects/alarm-clock-using-python-with-source-code/
+
+
 
 >## 💻&nbsp; System Requirements
 -  Git
