@@ -69,5 +69,5 @@ https://images.squarespace-cdn.com/content/5006453fe4b09ef2252ba068/135166011317
 
 [9] Blogs : https://towardsdatascience.com/predicting-the-survival-of-titanic-passengers-30870ccc7e8 <br>
 
- https://blog.a4everyone.com/2017/03/13/data-analytics-knows-if-you-are-going-to-survive-the-sinking-of-titanic/
+[10] https://blog.a4everyone.com/2017/03/13/data-analytics-knows-if-you-are-going-to-survive-the-sinking-of-titanic/
 
