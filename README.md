@@ -217,6 +217,6 @@ Please adhere towards our [code-of-conduct.md](code-of-conduct.md).
 <a href="https://github.com/mrinal41298"><img src="https://avatars3.githubusercontent.com/u/55679963?s=460&u=66c9d1ec2ce9183bb517311a4f5ff32286e4df72&v=4" width="100px;" alt=""/><br /><sub><b>Mrinal Kumar</b></sub></a><br />
 
 
-[![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/mrinal41298/)
+[![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/mrinal41298/) [![Join the chat at https://gitter.im/SWOC2021/Awesome-python-projects](https://badges.gitter.im/SWOC2021/Awesome-python-projects.svg)](https://gitter.im/SWOC2021/Awesome-python-projects?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## ❤️ Thanks to our awesome contributors.
