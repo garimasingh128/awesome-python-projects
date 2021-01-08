@@ -183,6 +183,18 @@ Resources to learn Git:
 ## References for IPL score predictor
 - https://youtu.be/4CtyDxfhoN8
 
+## Refrences for Twitter Sentiment Analysis using ML
+- https://towardsdatascience.com/social-media-sentiment-analysis-49b395771197
+- https://towardsdatascience.com/social-media-sentiment-analysis-part-ii-bcacca5aaa39
+
+
+## Reference for Credit Card Fraud Detection 
+- https://www.geeksforgeeks.org/ml-credit-card-fraud-detection/
+
+## References for alarm clock
+- https://youtube.com/playlist?list=PLu0W_9lII9ajLcqRcj4PoEihkukF_OTzA
+- https://itsourcecode.com/free-projects/python-projects/alarm-clock-using-python-with-source-code/
+
 
 
 >## 💻&nbsp; System Requirements
@@ -205,6 +217,6 @@ Please adhere towards our [code-of-conduct.md](code-of-conduct.md).
 <a href="https://github.com/mrinal41298"><img src="https://avatars3.githubusercontent.com/u/55679963?s=460&u=66c9d1ec2ce9183bb517311a4f5ff32286e4df72&v=4" width="100px;" alt=""/><br /><sub><b>Mrinal Kumar</b></sub></a><br />
 
 
-[![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/mrinal41298/)
+[![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/mrinal41298/) [![Join the chat at https://gitter.im/SWOC2021/Awesome-python-projects](https://badges.gitter.im/SWOC2021/Awesome-python-projects.svg)](https://gitter.im/SWOC2021/Awesome-python-projects?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## ❤️ Thanks to our awesome contributors.
