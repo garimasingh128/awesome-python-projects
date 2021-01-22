@@ -1,0 +1,88 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static './css/main.css' %}" />
+
+    <!-- Fonts & Icons -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    />
+    <link rel="title icon" href="{% static 'images/contact-icon.png' %}">
+    <title>
+    {% block title %}
+    
+    {% endblock title %}
+    </title>
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <nav>
+      <a class="logo" href="{% url 'home' %}">
+        <i class="fas fa-user-circle"></i>&nbsp;Contacts Manager
+      </a>
+      <p class="feature-link m-0 p-0">
+      {% if request.user.is_authenticated %}
+      <a href="{% url 'logout' %}" class="mr-4 text-white">
+      <i class="fas fa-sign-in-alt"></i> &nbsp; Log out
+      </a>
+      <a href="{% url 'create' %}" class="mr-4 text-white">
+      <i class="fas fa-plus"></i> &nbsp; Add Contact
+      </a>
+      {% else %}
+      <a href="{% url 'signup' %}" class="mr-4 text-white">
+      <i class="fas fa-user-plus"></i> &nbsp; Sign up
+      </a>
+      <a href="{% url 'login' %}" class="mr-4 text-white">
+      <i class="fas fa-sign-in-alt"></i> &nbsp; Log in
+      </a>
+      {% endif %}
+      
+      </p>
+      <form class="form-inline my-2" action="{% url 'search' %}" method="GET">
+        <input
+          class="form-control search-box"
+          type="search"
+          placeholder="Find contacts..."
+          name="search_term"
+          value="{{search_term}}"
+        />
+        
+      </form>
+    </nav>
+    <!-- Navbar ends -->
+    <br />
+    {% include "partials/_message.html" %}
+    {% block content %}
+    
+    {% endblock content %}
+
+    <!-- footer -->
+    <footer class="mt-4 p-2">
+      <p class="text-center p-1 m-0">&copy; Contacts Manager 2020</p>
+    </footer>
+    <!-- footer ends -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

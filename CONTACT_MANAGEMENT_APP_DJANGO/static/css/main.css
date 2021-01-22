@@ -1,0 +1,143 @@
+:root {
+  --back: #29a7a6;
+  /* --logo: #ff70a6; */
+  --girl: #e64298;
+  --boy: #2874dd;
+}
+body {
+  font-family: Lato, sans-serif;
+}
+
+/* Navbar Styles */
+
+nav {
+  font-weight: light;
+  display: flex;
+  justify-content: space-around;
+  background-color: #e74c3c;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.logo {
+  font-size: 30px;
+  letter-spacing: 1px;
+  /* background: var(--logo); */
+  color: white;
+  padding: 2px 12px;
+  border-radius: 8px;
+  font-family: cursive;
+}
+.logo:hover {
+  color: white;
+  text-decoration: none;
+}
+.search-box {
+  border-radius: 0px !important;
+  width: 250px;
+  border: none !important;
+  background-color: #f2f3f5 !important;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+}
+/* Navbar Styles end */
+
+/* Card Styles */
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  min-width: 250px;
+  box-sizing: border-box;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+img {
+  height: 130px !important;
+}
+.card-header {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+.header-link:hover {
+  text-decoration: none;
+}
+.boy-card .card-header {
+  background-color: var(--boy);
+}
+.boy-card .card-body,
+.boy-card .card-body p a {
+  color: var(--boy);
+}
+.girl-card .card-header {
+  background-color: var(--girl);
+}
+.girl-card .card-body,
+.girl-card .card-body p a {
+  color: var(--girl);
+}
+.card-body p {
+  cursor: pointer;
+}
+/* Card Styles end */
+
+/* Main Section */
+.main-part {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/* Main Section ends */
+
+/* footer style */
+footer {
+  background-color: #e74c3c;
+  color: white;
+  font-size: 18px;
+  border-bottom: 3px solid #e74c3c;
+}
+
+/* footer style ends*/
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  /* navbar style */
+  nav {
+    flex-direction: column;
+  }
+
+  .logo {
+    font-size: 22px !important;
+  }
+  .feature-link {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+  }
+  /* navbar style ends */
+
+  /* card styles */
+  .card-header {
+    font-size: 90% !important;
+  }
+  .card-body p {
+    font-size: 13px;
+    margin-bottom: 6px;
+  }
+  .card-body {
+    padding: 8px 8px 0 8px;
+  }
+  /* card styles end */
+
+  /* footer style */
+  footer {
+    font-size: 98% !important;
+    font-weight: light;
+    letter-spacing: 1px;
+  }
+  /* footer style ends */
+}
+/* Media Queries Ends*/
