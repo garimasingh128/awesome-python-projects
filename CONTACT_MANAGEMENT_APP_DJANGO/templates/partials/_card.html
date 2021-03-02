@@ -1,0 +1,57 @@
+{% load static %} {% if contact.gender == 'male' %}
+<!-- Card for details -->
+<div class="card my-2 mx-2 boy-card {% if 'detail' in request.path %}mx-auto w-25{% endif %}">
+  <img
+    src="{% if contact.image %}
+        {{ contact.image.url }}
+        {% else %}
+        {% static 'images/boy.png' %}
+        {% endif %}"
+    class="img-fluid"
+  />
+  <div class="card-header">
+    <a href="{% url 'detail' contact.id %}" class="text-white header-link"
+      ><i class="fas fa-mars mr-2"></i> {{ contact.name }}</a
+    >
+  </div>
+  <div class="card-body pb-0">
+    <p>
+      <i class="fas fa-at mr-2"></i>
+      <a href="mailto:{{ contact.email }}">{{ contact.email }}</a>
+    </p>
+    <p>
+      <i class="fas fa-phone mr-2"></i>
+      <a href="tel:{{ contact.phone }}">{{ contact.phone }}</a>
+    </p>
+    <p><i class="fas fa-info-circle mr-2"></i> {{ contact.info }}</p>
+  </div>
+</div>
+<!-- Card for details ends -->
+{% else %}
+<div class="card my-2 mx-2 girl-card">
+  <img
+    src="{% if contact.image %}
+        {{ contact.image.url }}
+        {% else %}
+        {% static './images/girl.png' %}
+        {% endif %}"
+    class="img-fluid"
+  />
+  <div class="card-header">
+    <a href="{% url 'detail' contact.id %}" class="text-white header-link"
+      ><i class="fas fa-venus mr-2"></i> {{ contact.name }}</a
+    >
+  </div>
+  <div class="card-body pb-0">
+    <p>
+      <i class="fas fa-at mr-2"></i>
+      <a href="mailto:{{ contact.email }}">{{ contact.email }}</a>
+    </p>
+    <p>
+      <i class="fas fa-phone mr-2"></i>
+      <a href="tel:{{ contact.phone }}">{{ contact.phone }}</a>
+    </p>
+    <p><i class="fas fa-info-circle mr-2"></i> {{ contact.info }}</p>
+  </div>
+</div>
+{% endif %}
