@@ -15,17 +15,12 @@
 
 
 
-# This project is a part of #Build with LetsUpgrade 2020 👣
+# This project was a part of #Build with LetsUpgrade 2020 👣
   OPEN SOURCE CONTEST - Build with LetsUpgrade 2020
   ### About Build with LetsUpgrade 2020 💻
   Build with LetsUpgrade is a 2 month-long program conducted by LetsUpgrade with aim to help beginners get started with Open Source Development. Students are paired with mentors, helping to gain exposure to real-world software development and techniques. The organizations are able to identify and bring in new developers and continue to contribute to open source after end also.
 
 >### "The main mantra is to technically inspire all the beginners"
-
-<div align="center">
-
-<img src="https://letsupgrade.in/assets/logo.png" width="600" height="200">
-</div>
 
 
 
