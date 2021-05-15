@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+    background: url('https://source.unsplash.com/random?books') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#navbar{
+    background:#333;
+    color: white;
+    overflow: auto;
+}
+#navbar a{
+    color: white;
+}
+
+#navbar h1{
+    padding-top: 20px;
+    padding-left: 20px;
+    float: left;
+}
+#navbar ul{
+    float: right;
+    list-style: none;
+    padding-right: 20px;
+}
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+#navbar ul li a:hover, #navbar ul li a.current{
+    background: #444;
+    color: #f7c08a;
+}
+
+#home-info{
+    overflow: auto;
+    height: 400px;
+    width: 1000px;
+    margin: auto;
+}
+#home-info #lat{
+    float: left;
+    width: 200px;
+    margin-left: 25%;
+    margin-top: 10%;
+    border-radius: 5px;
+    padding: 10px 40px;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+}
+#home-info #lon{
+    float: right;
+    width: 200px;
+    margin-right: 25%;
+    margin-top: 10%;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+}
+#home-info #submit{
+    float: right;
+    border-radius: 5px;
+    margin: 16% 44% 0 0;
+    padding: 10px 40px;    
+}
+#location-address{
+    overflow: auto;
+    height: 400px;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+#location-address #streetValue{
+    text-align: center;
+    width: 100%;
+}
