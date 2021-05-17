@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <!-- <link rel="stylesheet" href="../static/style.css"> -->
+    <title>Know The Address | Home</title>
+</head>
+
+<body>
+    <div id="navbar">
+        <h1>Know Your Address</h1>
+        <ul>
+            <li> <a href="/">Home</a></li>
+        </ul>
+    </div>
+    <form action="{% url 'index' %}" method="post">
+        {% csrf_token %}
+        <div id="home-info">
+            <input type="number" step="0.00001" name="lat" id="lat" value="{{ lat }}" placeholder="Enter Latitude">
+            <input type="number" step="0.00001" name="lon" id="lon" value="{{ lon }}" placeholder="Enter Longitude">
+            <button type="submit" id="submit">Submit</button>
+        </div>
+        <div id="location-address">
+            <input type="text" name="streetValue" id="streetValue" value="{{ streetAddress }}" readonly>
+        </div>
+    </form>
+</body>
+
+</html>
