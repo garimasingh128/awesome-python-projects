@@ -18,7 +18,7 @@
 # This project was a part of #Build with LetsUpgrade 2020 👣
   OPEN SOURCE CONTEST - Build with LetsUpgrade 2020
   ### About Build with LetsUpgrade 2020 💻
-  Build with LetsUpgrade is a 2 month-long program conducted by LetsUpgrade with aim to help beginners get started with Open Source Development. Students are paired with mentors, helping to gain exposure to real-world software development and techniques. The organizations are able to identify and bring in new developers and continue to contribute to open source after end also.
+  Build with LetsUpgrade is a 2 month-long program conducted by Lets Upgrade with aim to help beginners get started with Open Source Development. Students are paired with mentors, helping to gain exposure to real-world software development and techniques. The organizations are able to identify and bring in new developers and continue to contribute to open source after end also.
 
 >### "The main mantra is to technically inspire all the beginners"
 
@@ -186,7 +186,7 @@ Resources to learn Git:
 ## Reference for Credit Card Fraud Detection 
 - https://www.geeksforgeeks.org/ml-credit-card-fraud-detection/
 
-## References for alarm clock
+## References for Alarm Clock
 - https://youtube.com/playlist?list=PLu0W_9lII9ajLcqRcj4PoEihkukF_OTzA
 - https://itsourcecode.com/free-projects/python-projects/alarm-clock-using-python-with-source-code/
 
