@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Summaryzer</title>
+
+  <!-- CSS  -->
+
+    <link href="{{ url_for('static',filename='css/materialize.css') }}" rel="stylesheet">
+      <link href="{{ url_for('static',filename='img/favicon.png') }}" rel="icon">
+
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+       
+
+    <link href="{{ url_for('static',filename='css/style.css') }}" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+</head>
+<body>
+  <body style = "background-color : #242424">
+            <center><h1 style = "color:#ffc872; font: gabrielle"> Summaryzer </h1></center>
+           <center> <img src="{{ url_for('static',filename='img/logo(1).png') }}" alt="logo" width="15%"></center>
+
+
+<br><br><br><br><br><br>
+ <div class="container">
+    <div id = "summary" class="section">
+       
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="input-field col s12 m10">
+          <div class="icon-block">
+           <form method="POST" action="/analyze">
+         <textarea name="rawtext" cols="200" rows="400" class="form-control" placeholder="Enter Text Here"></textarea>
+
+          
+         <br/>
+          <center><button class="button b2" type="submit">Summarize <i class=" fa fa-newspaper-o" style="font-size:24px"></i>
+</button><button class="button b2" type="reset">Clear</button></center>
+      
+        </form>
+          </div>
+        </div>
+
+      </div>
+<div class="row">
+        <div class="input-field col s12 m10">
+          <div class="icon-block">
+           <form method="POST" action="/analyze_url">
+<textarea name="raw_url" cols="200" rows="400" class="form-control" placeholder="Enter URL Here"></textarea>       <center>   <button class="button b2" type="submit">Summarize</button><button class="button b2" type="reset">Clear</button></center>
+          
+        </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+        </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- End -->
+
+<div class="c">
+  <div class="container">
+   <center>
+    <h4><b>Raw Text</b></h4> 
+    <p>{{ ctext }}</p> </center>
+  </div>
+</div>
+
+<div class="c">
+  <div class="container">
+   <center>
+    <h4><b>Summary</b></h4> 
+    <p>{{ final_summary}}</p> </center>
+  </div>
+</div>
+  
+  <br><br><br><br><br><br>
+
+  
+  <footer class="page-footer grey darken-4">
+    <div class="container" id="aboutapp">
+      <div class="row">
+        <div class="col l6 s12">
+        <center>  <h5 class="white-text">Copyright &copy Aryaman Srivastava 2021</h5> </center>
+        </div>
+      
+
+</footer>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="{{ url_for('static', filename='js/materialize.js') }}"></script>
+
+    <script src="{{ url_for('static', filename='js/init.js') }}"></script>
+
+<!-- Jesse JCharis -->
+  </body>
+</html>
