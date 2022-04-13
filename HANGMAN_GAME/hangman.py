@@ -14,7 +14,7 @@ from os import system
 import random
 
 def cls():
-    system ('cls')
+    system('cls')
 
 def hangman_game():
     cls()
