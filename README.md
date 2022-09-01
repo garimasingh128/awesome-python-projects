@@ -58,6 +58,7 @@ Read these articles to get a quick grab on Python:
 - https://www.python.org/about/gettingstarted/
 - https://www.learnpython.org
 - https://www.programiz.com/python-programming
+- https://www.scaler.com/topics/python
 
 Resources to learn Git:
 -  https://try.github.io/
