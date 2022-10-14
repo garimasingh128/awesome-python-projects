@@ -24,9 +24,9 @@ from django.contrib import messages
 
 
 class HomePageView(LoginRequiredMixin, ListView):
-    template_name = 'index.html'
+    template_name = "index.html"
     model = Contact
-    context_object_name = 'contacts'
+    context_object_name = "contacts"
 
     def get_queryset(self):
         contacts = super().get_queryset()
@@ -34,68 +34,65 @@ class HomePageView(LoginRequiredMixin, ListView):
 
 
 class ContactDetailView(LoginRequiredMixin, DetailView):
-    template_name = 'detail.html'
+    template_name = "detail.html"
     model = Contact
-    context_object_name = 'contact'
+    context_object_name = "contact"
 
 
 @login_required
 def search(request):
     if request.GET:
-        search_term = request.GET['search_term']
+        search_term = request.GET["search_term"]
         search_results = Contact.objects.filter(
-            Q(name__icontains=search_term) |
-            Q(email__icontains=search_term) |
-            Q(info__icontains=search_term) |
-            Q(phone__iexact=search_term)
+            Q(name__icontains=search_term)
+            | Q(email__icontains=search_term)
+            | Q(info__icontains=search_term)
+            | Q(phone__iexact=search_term)
         )
         context = {
-            'search_term': search_term,
-            'contacts': search_results.filter(manager=request.user)
+            "search_term": search_term,
+            "contacts": search_results.filter(manager=request.user),
         }
-        return render(request, 'search.html', context)
+        return render(request, "search.html", context)
     else:
-        return redirect('home')
+        return redirect("home")
 
 
 class ContactCreateView(LoginRequiredMixin, CreateView):
     model = Contact
-    template_name = 'create.html'
-    fields = ['name', 'email', 'phone', 'info', 'gender', 'image']
+    template_name = "create.html"
+    fields = ["name", "email", "phone", "info", "gender", "image"]
 
     def form_valid(self, form):
         instance = form.save(commit=False)
         instance.manager = self.request.user
         instance.save()
-        messages.success(
-            self.request, 'Your contact has been successfully created!')
-        return redirect('home')
+        messages.success(self.request, "Your contact has been successfully created!")
+        return redirect("home")
 
 
 class ContactUpdateView(LoginRequiredMixin, UpdateView):
     model = Contact
-    template_name = 'update.html'
-    fields = ['name', 'email', 'phone', 'info', 'gender', 'image']
+    template_name = "update.html"
+    fields = ["name", "email", "phone", "info", "gender", "image"]
 
     def form_valid(self, form):
         instance = form.save()
-        messages.success(
-            self.request, 'Your contact has been successfully updated!')
-        return redirect('detail', instance.pk)
+        messages.success(self.request, "Your contact has been successfully updated!")
+        return redirect("detail", instance.pk)
 
 
 class ContactDeleteView(LoginRequiredMixin, DeleteView):
     model = Contact
-    template_name = 'delete.html'
-    success_url = '/'
+    template_name = "delete.html"
+    success_url = "/"
 
     def delete(self, request, *args, **kwargs):
-        messages.success(
-            self.request, 'Your contact has been successfully deleted!')
+        messages.success(self.request, "Your contact has been successfully deleted!")
         return super().delete(self, request, *args, **kwargs)
 
 
 class SignUpView(CreateView):
     form_class = UserCreationForm
-    template_name = 'registration/signup.html'
-    success_url = reverse_lazy('home')
+    template_name = "registration/signup.html"
+    success_url = reverse_lazy("home")
