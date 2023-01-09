@@ -98,6 +98,7 @@ Resources to learn Git:
 - https://medium.com/byte-tales/the-classic-tic-tac-toe-game-in-python-3-1427c68b8874
 - https://inventwithpython.com/chapter10.html
 - https://www.geeksforgeeks.org/python-implementation-automatic-tic-tac-toe-game-using-random-number/
+- https://www.scaler.com/topics/tic-tac-toe-python/
 
 ## References for Password manager:
 - https://www.geeksforgeeks.org/python-gui-tkinter/
