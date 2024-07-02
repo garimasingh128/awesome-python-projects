@@ -1,3 +1,4 @@
+# import necessary modules
 import tweepy
 from time import sleep
 from credientials import *
@@ -5,11 +6,13 @@ from config import *
 import datetime
 
 
+# setup credentials
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth)
 
 
+# print twitter messages
 print("Twitter bot which retweets, like tweets, follow users and post daily tweets")
 print("Bot Settings")
 print("Retweet Tweets :{message}".format(
@@ -21,10 +24,12 @@ print("Follow users :{message}".format(
 print("Every day tweets :{message}".format(
     message="Enabled" if EVERYDAY_TWEETS else "Disabled"))
 
+# create the tweet loop
 for tweet in tweepy.Cursor(api.search, q=QUERY).items():
     try:
         print('\nTweet by: @' + tweet.user.screen_name)
 
+        # repost the tweet
         if RETWEET:
             tweet.retweet()
             print('Retweeted the tweet')
