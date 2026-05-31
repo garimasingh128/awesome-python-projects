@@ -63,6 +63,9 @@ Resources to learn Git:
 -  https://try.github.io/
 
 ##  References for Sentiment analyser ML project :
+
+- [Saju Fortune](https://tarofortune.pythonanywhere.com) - Korean four-pillars (saju) astrology calculator. Flask + Pillow for dynamic OG cards, Meeus astronomical algorithms for solar-term boundary detection, no database. EN+KR. Solo-built, ad-supported, deployed on PythonAnywhere free tier.
+- [GeoInfomatic — Living Zone Accessibility](https://geoinfomatic.pythonanywhere.com) - Isochrone-based Korean neighborhood analyzer. Walking/transit reachability, multi-facility overlay, AI summary. Flask + Leaflet + OSRM. Freemium model.
 -  https://www.youtube.com/watch?v=dyN_WtjdfpA
 -  https://www.geeksforgeeks.org/nlp-how-tokenizing-text-sentence-words-works/
 -  https://www.geeksforgeeks.org/pyplot-in-matplotlib/
